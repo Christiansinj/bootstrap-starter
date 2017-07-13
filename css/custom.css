@@ -1,1 +1,30 @@
 /* Bootstrap Customize */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*NavBar*/
+
+#last-ul {
+	border: 2px solid #D9E3E2;
+	padding: 8px;
+	margin-right: 8px;
+	border-radius: 5px;
+	margin-top: 5px;
+	}
+
+#navnav  ul li a {
+	color: #D9E3E2!important;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+nav ul{
+	padding-top: 8px;
+}
+
+#logo_1 {
+	height: 60px;
+}
+/*Navbar*/
