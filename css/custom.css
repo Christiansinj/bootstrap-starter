@@ -32,5 +32,9 @@ nav ul{
 /*Evrywhere*/
 #evrywhere {
 background-color: #439FE0;
+height: 100vh;
+margin-top: 60px;
+text-align: center;
+color: white;
 }
 /*Evrywhere*/
