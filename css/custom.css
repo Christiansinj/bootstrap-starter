@@ -59,3 +59,15 @@ color: white;
 	padding: 50px;
 }
 /*All_of*/
+
+/*Workday*/
+#workday{
+	background-color: #F7F5F3;
+	height: 80vh;
+	color: grey;
+	padding: 50px;
+}
+.title1{
+	color: black;
+}
+/*Workday*/
