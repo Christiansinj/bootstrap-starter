@@ -70,4 +70,40 @@ color: white;
 .title1{
 	color: black;
 }
+
+.ligne{
+	border-radius: 1px grey;
+}
+
+#Bt_evrywhere{
+	border: 2px solid #D9E3E2;
+	padding: 8px;
+	margin-right: 8px;
+	border-radius: 5px;
+	color: white;
+}
 /*Workday*/
+
+/*BT*/
+.Bt_learn{
+	border: 2px solid grey;
+	padding: 8px;
+	margin-right: 8px;
+	border-radius: 5px;
+	text-decoration: none !important;
+	color: grey;
+}
+
+/*.cercle{
+	border: 2px solid grey;
+	padding: 8px;
+	margin-right: 8px;
+	border-radius: 5px;
+	color: grey;
+	width: 50%;
+	height: 50%;*/
+}
+.cercle{
+		border: 2px solid grey;
+}
+/*BT*/
