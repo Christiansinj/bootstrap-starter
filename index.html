@@ -4,31 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bootstrap Boilerplate</title>
+  <title>Slack: ***Where work happens</title>
+  <link rel="icon" type="image/png" href="https://a.slack-edge.com/bc86/marketing/img/meta/app-256.png"/>
   <link rel="stylesheet" href="./css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
   <!-- YOUR CODE -->
-<header>
- <nav id="navnav" class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <img id="logo_1" src="images/logo_1.png" class="navbar-brand" href="#">
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Product</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><a href="#">Support</a></li>
-      <li><a href="#">Create a new team</a></li>
-      <li><a href="#">Find your team</a></li>
-      <li><a id="last-ul" href="#">Sign in</a></li>
-    </ul>
+  <div id="header">
+    <nav id="navnav" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <img id="logo_1" src="images/logo_1.png" class="navbar-brand" href="#">
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Create a new team</a></li>
+          <li><a href="#">Find your team</a></li>
+          <li><a id="last-ul" href="#">Sign in</a></li>
+        </ul>
+      </div>
+    </nav>
+    <button type="button" class="btn btn-info btn-watch">Watch the tour</button>
   </div>
-</nav> 
-</header>
-<section id="evrywhere">
+
+  <div id="sham-part">
+    <!-- SECTION "Team communication" - SHAM -->
+    <div class="container">
+      <section id="team" class="section">
+        <h1 class="bigTitle">Team communication<br> for the 21st century.</h1>
+        <div class="row team-content">
+          <div class="col-md-6">
+            <h3>Channels</h3>
+            <p>Organize your team conversations in open channels. Make a channel for a project, a topic, a team, or anything—everyone has a transparent view of all that’s going on. For sensitive information, create private channels and invite a few team members</p>
+            <h3>Direct Messages</h3>
+            <p>Send messages directly to another person or to a small group of people for more focused conversations.</p>
+            <h3>Calls</h3>
+            <p>Take a conversation from typing to face-to-face by starting a Slack voice or video call in any Channel or Direct Message. From there, you're one click away from sharing your screen, so everyone can follow along.</p>
+          </div>
+          <div class="col-md-6 col-md-offset-1 team-background-img">
+            <img src="images/ways_ssb3.png" alt="">
+          </div>
+        </div>
+      </section>
+    </div>
+    <hr>
+
+    <!-- SECTION "Drag, drop, and share your files" -->
+    <div class="container">
+      <section id="drag">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/drag_drop_share.png" alt="">
+          </div>
+          <div class="col-md-6">
+            <h2>Drag, drop, and share your files.</h2>
+            <p>Not just your messages, but <strong>all your files</strong>, images, PDFs, documents, and spreadsheets can be dropped right into Slack and <strong>shared with anyone you want</strong>. Add comments, star for later reference, and it’s all completely searchable.</p>
+            <p>If you use any services like Google Drive, Dropbox, or Box, just paste the link and that document is <strong>immediately in sync and searchable</strong> too.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <hr>
+
+    <!-- SECTION "All your tools in one place." -->
+    <div class="container">
+      <section id="tools">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>All your tools in one place.</h2>
+            <p>Connect all the tools you use to Slack and avoid all that constant switching between apps. Set up your integration so that you <strong>get all your notifications directly within Slack</strong>—from support requests, code check-ins, and error logs to sales leads—all of them searchable in one central archive.</p>
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+            <img src="images/tools.png" alt="">
+          </div>
+        </div>
+      </section>
+    </div>
+    <hr>
+
+    <!-- SECTION "Search your entire archive." -->
+    <div class="container">
+      <section id="search">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/search.png" alt="">
+          </div>
+          <div class="col-md-6">
+            <h2>Search your entire archive.</h2>
+            <p>Everything in Slack—messages, notifications, files, and all—is automatically indexed and archived so that you can have it at your fingertips whenever you want. Slack also indexes the content of every file so you can <strong>search within PDFs, Word documents, Google docs, and more</strong>. With one search box and a set of powerful search operators, you can slice and dice your way to that one message in your communication haystack.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+<section id="everywhere">
     <div class="row">
-      <div class="col-md-12"><h1>Evrywhere you go.</h1></div>
+      <div class="col-md-12"><h1>Everywhere you go.</h1></div>
   <div class="col-md-12"><p>Whith fully native apps for IOS and Android, wathever you do on one device is reflected evrywhere.<br>Evrythings is in sync. We'll keep your place so you can always pick up wherever you left off.</p>
     <a id="Bt_evrywhere" href="#">see all apps</a>
   </div>
@@ -79,13 +153,80 @@
     <div class="col-md-offset-3">
     </div>
     <div class="col-md-12">
-      <p>You can easily upgrade to our <a href="#"> paid plans</a>, which offer more features and controls.
-</p>
+      <p>You can easily upgrade to our <a href="#"> paid plans</a>, which offer more features and controls.</p>
     </div>
   </div>
-  
 </section>
-  <!-- END OF YOUR CODE -->
+<hr>
+
+<!-- SECTION Footer-menu -->
+<div class="container">
+  <section id="footer-menu">
+    <div class="row">
+      <div class="col-md-3">
+        <h4 class="h4-yellow">USING SLACK</h4>
+          <ul>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Entreprise</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Slack Guides</a></li>
+            <li><a href="#">App Directory</a></li>
+            <li><a href="#">API</a></li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+        <h4 class="h4-pink">SLACK</h4>
+          <ul>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Slack Shop</a></li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+        <h4 class="h4-green">LEGAL</h4>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Policies</a></li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+        <h4 class="h4-blue">HANDY LINKS</h4>
+          <ul>
+            <li><a href="#">Download desktop app</a></li>
+            <li><a href="#">Download mobile app</a></li>
+            <li><a href="#">Brand Guidelines</a></li>
+            <li><a href="#">Slack at Work</a></li>
+            <li><a href="#">Status</a></li>
+          </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="navbar-header">
+      <a href="#">
+        <img src="images/social.png" alt="">
+      </a>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+      </ul>
+  </div>
+</footer>
+</div>
+<!-- END OF YOUR CODE -->
   <script src="./vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="./vendors/bootstrap/js/bootstrap.min.js"></script>
 </body>
