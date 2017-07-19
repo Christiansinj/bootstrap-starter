@@ -2,6 +2,9 @@
 
 body {
   font-family: 'Lato', sans-serif;
+}
+
+#sham-part {
   color: #777777;
 }
 
@@ -10,7 +13,6 @@ body {
 }
 
 /* HEADER + BUTTON */
-
 #header {
   background-image: url(../images/tour_header_video_1680px.png);
   background-size: cover;
@@ -36,7 +38,6 @@ body {
 }
 
 /*SECTION "TEAM COMMUNICATION"*/
-
 #team {
   margin-top: 60px;
   margin-bottom: 40px;
@@ -58,7 +59,7 @@ h1.bigTitle {
   text-align: center;
 }
 
-h3 {
+#team h3 {
   color: #4A4A4A;
   font-weight: bold;
   font-size: 21px;
@@ -67,6 +68,7 @@ h3 {
 
 p {
   font-size: 17px;
+  line-height: 1.6;
 }
 
 #team img {
@@ -75,14 +77,49 @@ p {
 }
 
 /*SECTION "Drag, drop, and share your files"*/
-
 #drag {
   margin-top: 75px;
   margin-bottom: 100px;
 }
 
-#drag p {
-  line-height: 1.6;
+#sham-part h2 {
+  color: #4A4A4A;
+  margin-bottom: 20px;
+}
+
+/*SECTION "All your tools in one place."*/
+#tools {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#tools h2 {
+  margin-top: 50px;
+}
+
+/*SECTION "Search your entire archive."*/
+#search {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+/*SECTION Footer-link*/
+#sham-part h4 {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#footer-link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.9;
+}
+
+#footer-link a {
+  text-decoration: none;
+  color: #B2BBC5;
+  font-size: 14  px;
 }
 
           /*END CSS SHAMILA*/
