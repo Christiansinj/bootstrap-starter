@@ -103,23 +103,43 @@ p {
   margin-bottom: 75px;
 }
 
-/*SECTION Footer-link*/
+/*SECTION Footer-menu*/
 #sham-part h4 {
   font-size: 11px;
   font-weight: bold;
 }
 
-#footer-link ul {
+#footer-menu {
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+
+#footer-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
   line-height: 1.9;
 }
 
-#footer-link a {
+#footer-menu a {
   text-decoration: none;
-  color: #B2BBC5;
-  font-size: 14  px;
+  color: #8C8C94;
+  font-size: 14px;
 }
 
+.h4-yellow {
+  color: #EDB431;
+}
+
+.h4-pink {
+  color: #E32072;
+}
+
+.h4-green {
+  color: #2AB27B;
+}
+
+.h4-blue {
+  color: #4B6BC6;
+}
           /*END CSS SHAMILA*/
