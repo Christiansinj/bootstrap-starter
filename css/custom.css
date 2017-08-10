@@ -19,8 +19,11 @@ body{
 }
 
 
-#logo_1 {
+#logo_nav {
 	height: 60px;
+	margin: 5px 0 0 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 #last-ul {
