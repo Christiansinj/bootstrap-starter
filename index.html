@@ -7,24 +7,27 @@
   <title>Slack: ***Where work happens</title>
   <link rel="icon" type="image/png" href="https://a.slack-edge.com/bc86/marketing/img/meta/app-256.png"/>
   <link rel="stylesheet" href="./css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
 </head>
 <body>
   <!-- YOUR CODE -->
   <div id="header">
-    <nav id="navnav" class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">Menu</button>
           <img id="logo_1" src="images/logo_1.png" class="navbar-brand" href="#">
         </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Create a new team</a></li>
-          <li><a href="#">Find your team</a></li>
-          <li><a id="last-ul" href="#">Sign in</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Create a new team</a></li>
+            <li><a href="#">Find your team</a></li>
+            <li><a id="last-ul" href="#">Sign in</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     <button type="button" class="btn btn-info btn-watch">Watch the tour</button>
@@ -45,7 +48,7 @@
             <p>Take a conversation from typing to face-to-face by starting a Slack voice or video call in any Channel or Direct Message. From there, you're one click away from sharing your screen, so everyone can follow along.</p>
           </div>
           <div class="col-md-6 col-md-offset-1 team-background-img">
-            <img src="images/ways_ssb3.png" alt="">
+            <img src="images/ways_ssb3.png" class="img-responsive" alt="">
           </div>
         </div>
       </section>
@@ -57,7 +60,7 @@
       <section id="drag">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/drag_drop_share.png" alt="">
+            <img src="images/drag_drop_share.png" class="img-responsive" alt="">
           </div>
           <div class="col-md-6">
             <h2>Drag, drop, and share your files.</h2>
@@ -78,7 +81,7 @@
             <p>Connect all the tools you use to Slack and avoid all that constant switching between apps. Set up your integration so that you <strong>get all your notifications directly within Slack</strong>—from support requests, code check-ins, and error logs to sales leads—all of them searchable in one central archive.</p>
           </div>
           <div class="col-md-4 col-md-offset-2">
-            <img src="images/tools.png" alt="">
+            <img class="img-responsive" src="images/tools.png" alt="">
           </div>
         </div>
       </section>
@@ -90,7 +93,7 @@
       <section id="search">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/search.png" alt="">
+            <img class="img-responsive" src="images/search.png" alt="">
           </div>
           <div class="col-md-6">
             <h2>Search your entire archive.</h2>
@@ -108,14 +111,14 @@
       </div>
       <div class="col-md-12">
         <p>With fully native apps for <strong>iOS and Android</strong>, whatever you do on one device is reflected everywhere. <br> Everything is in sync. We’ll keep your place so you can always pick up wherever you left off.</p>
-        <a id="Bt_evrywhere" href="#">See all apps</a>
+        <a class="everywhere_btn" href="#">See all apps</a>
       </div>
       <div class="col-md-12 img-everywhere">
-        <img src="images/everywhere.png" alt="">
+        <img class="img-responsive" src="images/everywhere.png" alt="">
       </div>
       <div class="col-md-12"><hr>
         <div class="col-md-6">
-          <img src="images/notification.png" alt="">
+          <img class="img-responsive" src="images/notification.png" alt="">
         </div>
       <div class="col-md-6 custom">
         <p><strong>Customize your notifications</strong> whether you’re on <br> your computer or mobile device. Dial them up to be <br> alerted about everything or dial them down to focus <br> on just a few things.</p>
@@ -125,47 +128,46 @@
 </div>
 </section>
 
-<div id="all_of">
+<div class="all_of">
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <img id="imgAllof" src="images/illustration_slackatscale.png" alt="">
+        <img class="all_of_image img-responsive" src="images/illustration_slackatscale.png" alt="">
       </div>
-      <div class="col-md-7 col-md-offset-2 lettre">
-        <h2>All of the above, at Enterprise scale</h2>
+      <div class="col-md-7 col-md-offset-2 all_of_text">
+        <h1>All of the above, at Enterprise scale</h1>
         <p>Enterprise Grid brings the power and utility of Slack to large, complex organizations.</p>
-        <a class="Bt_learn" href="#">Learn more</a>
+        <a class="all_of_btn" href="#">Learn more</a>
       </div>
     </div>
   </div>
 </div>
-  <div id="workday">
-    <div class="container">
-  <div class="row">
-    <div class="col-md-6 text-center">
-    <h2 class="title1">Reclaim your workday.</h2>
-    <p>Less email. More productive. Our customers see an average 48.6% reduction in internal email, helping them enjoy a simpler, more pleasant, and more productive work life.</p>
-    <a href="#">see the data</a>
-    </div>
-    <div class="col-md-6">
-      <img src="images/survey_chat_clean.png" alt="">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-3">
-      <p>Slack is free to use for as long as you want for teams of all sizes.</p>
-    </div>
-    <div class="col-md-2">
-      <button type="button" class="btn btn-success">Create a new team</button>
-    </div>
-        </div>
-    <div class="col-md-offset-3">
-    </div>
-    <div class="col-md-12">
-      <p>You can easily upgrade to our <a href="#"> paid plans</a>, which offer more features and controls.</p>
+
+<div class="workday">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 workday_text">
+        <h1 class="workday_title"> Reclaim your workday.</h1>
+        <p>Less email. More productive. Our customers see an average <span>48.6% reduction in internal email</span>, helping them enjoy a simpler, more pleasant, and more productive work life.</p>
+      </div>
+      <div class="col-md-3 col-md-offset-1">
+        <img class="workday_image img-responsive" src="images/survey_chat_clean.png" alt="">
+      </div>
     </div>
   </div>
 </div>
+<div class="create_new_team">
+  <div class="container">
+    <div class="row">
+      <div class="create_new_team_div">
+        <h1>Slack is <strong>free</strong> to use for as long as you want for teams of all sizes.</h1>
+        <button type="button" class="btn btn-success create_new_team_btn">Create a new team</button>
+      </div>
+    </div>
+    <p class="paid_plans">You can easily upgrade to our <a href="#"> paid plans</a>, which offer more features and controls.</p>
+  </div>
+</div>
+
 <hr>
 
 <!-- SECTION Footer-menu -->
